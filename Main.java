@@ -42,6 +42,6 @@ public class Main {
 
         // ВЫЗЫВАЕМ МЕТОДЫ ДЛЯ ФОРМИРОВАНИЯ ЗАПРОСА ПОЛЬЗОВАТЕЛЯ И СРАВНЕНИЯ С БАЗОЙ ДАННЫХ
         Notebook.menu();
-        Notebook.askUser(mySet);
+        Notebook.normDemands(mySet);
     }
 }
