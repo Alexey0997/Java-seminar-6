@@ -63,7 +63,7 @@ public class Notebook {
     }
 
     // ФОРМИРУЕМ МНОГОВАРИАНТНЫЕ ЗАПРОСЫ ПОЛЬЗОВАТЕЛЯ ДЛЯ ДОБАВЛЕНИЯ В ФИЛЬТР
-    public static Set<Object> askUser(Set<Notebook> mySet) {
+    public static Set<Object> normDemands(Set<Notebook> mySet) {
         Scanner aScanner = new Scanner(System.in);
         int decisionNumber = aScanner.nextInt();
         String text1 = """
@@ -233,8 +233,4 @@ public class Notebook {
         }
     }
 }
-
-
-
-
 
